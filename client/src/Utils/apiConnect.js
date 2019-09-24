@@ -14,7 +14,7 @@ const postHeader = {
 
 let host = "";
 
-if (process.env.NODE_ENV !== "production") host = "http://localhost:3000";
+if (process.env.NODE_ENV !== "production") host = "https://3000-bdc74574-01b7-4c5f-9fb2-d8d64021a035.ws-ap0.gitpod.io";
 
 export const getCertificate = certificateId =>
   fetch(`${host}/certificate/data/${certificateId}`, getHeader)

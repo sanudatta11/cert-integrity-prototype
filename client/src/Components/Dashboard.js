@@ -76,7 +76,7 @@ class Dashboard extends React.Component {
       expirationDate: null
     },
     logo:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/FOSSASIA_Logo.svg/600px-FOSSASIA_Logo.svg.png"
+      ""
   };
 
   verification = () => {
